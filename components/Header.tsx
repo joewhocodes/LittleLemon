@@ -2,7 +2,7 @@ import { View, Text } from 'react-native';
 
 export default function Header() {
 	return (
-		<View style={{ flex: 0.2, backgroundColor: '#F4CE14' }}>
+		<View style={{ flex: 0.15, backgroundColor: '#F4CE14' }}>
 			<Text
 				style={{
 					padding: 40,
@@ -10,10 +10,8 @@ export default function Header() {
 					color: 'black',
 					textAlign: 'center',
 				}}
-				numberOfLines={3}
 			>
-				Welcome To
-				<Text style={{ fontWeight: 'bold' }}> Little Lemon</Text>
+				Little Lemon
 			</Text>
 		</View>
 	);
