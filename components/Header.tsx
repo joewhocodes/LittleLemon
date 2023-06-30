@@ -2,16 +2,15 @@ import { View, Text, StyleSheet } from 'react-native';
 
 export default function Header() {
 	return (
-		<View style={headerStyles.container}>
-			<Text style={headerStyles.headerText}>Little Lemon</Text>
+		<View style={styles.container}>
+			<Text style={styles.headerText}>Little Lemon</Text>
 		</View>
 	);
 }
 
-const headerStyles = StyleSheet.create({
+const styles = StyleSheet.create({
 	container: {
-		flex: 0.15,
-		backgroundColor: '#F4CE14',
+		backgroundColor: '#EE9972',
 	},
 	headerText: {
 		padding: 40,

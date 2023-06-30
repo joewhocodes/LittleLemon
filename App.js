@@ -7,19 +7,22 @@ import MenuItems from './components/MenuItems';
 export default function App() {
 	return (
 		<>
-			<View style={appStyles.container}>
+			<View style={styles.container}>
 				<Header />
 				<MenuItems />
-				{/* <WelcomeScreen /> */}
-				<Footer />
 			</View>
+			{/* <WelcomeScreen /> */}
+			{/* <View style={styles.footerContainer}>
+				<Footer />
+			</View> */}
 		</>
 	);
 }
 
-const appStyles = StyleSheet.create({
+const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#495E57',
+		backgroundColor: '#333333',
 	},
+	footerContainer: { backgroundColor: '#333333' },
 });
