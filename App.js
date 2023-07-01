@@ -2,6 +2,7 @@ import { View, StyleSheet } from 'react-native';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import WelcomeScreen from './WelcomeScreen';
+import FeedbackForm from './components/FeedbackForm';
 import MenuItems from './components/MenuItems';
 
 export default function App() {
@@ -9,12 +10,13 @@ export default function App() {
 		<>
 			<View style={styles.container}>
 				<Header />
-				<MenuItems />
+				{/* <MenuItems /> */}
+            {/* <FeedbackForm /> */}
+			<WelcomeScreen />
 			</View>
-			{/* <WelcomeScreen /> */}
-			{/* <View style={styles.footerContainer}>
+			<View style={styles.footerContainer}>
 				<Footer />
-			</View> */}
+			</View>
 		</>
 	);
 }
